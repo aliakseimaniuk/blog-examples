@@ -2,6 +2,9 @@
 bin
 obj
 
+*.dbmdl
+*.jfm
+
 # User-specific files
 *.suo
 *.user
