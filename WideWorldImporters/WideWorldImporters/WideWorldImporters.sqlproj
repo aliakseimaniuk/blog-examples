@@ -59,9 +59,11 @@
     <Folder Include="Properties" />
     <Folder Include="Application" />
     <Folder Include="Application\Tables" />
+    <Folder Include="Application\Stored Procedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Application\Application.Schema.sql" />
     <Build Include="Application\Tables\People.sql" />
+    <Build Include="Application\Stored Procedures\CreateRoleIfNonexistent.sql" />
   </ItemGroup>
 </Project>
