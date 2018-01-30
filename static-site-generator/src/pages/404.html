@@ -1,0 +1,19 @@
+{% extends "_layout.html" %}
+{% import 'macros/_header.html' as header %}
+
+{% block head %}
+  <title>My site - 404 not found.</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+{% endblock %}
+
+{% block header %}
+  {{ header.renderHeader('404') }}
+{% endblock %}
+
+{% block content %}
+  <div>
+    <p>Error 404: Page not found.</p>
+    <a href="/">Back to index.</a>
+  </div>
+{% endblock %}
